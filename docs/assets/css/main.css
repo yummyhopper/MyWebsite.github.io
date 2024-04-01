@@ -4687,3 +4687,37 @@ input, select, textarea {
 		}
 
 	}
+	.about-me-container {
+		background-color: white;
+		padding: 20px;
+		border-radius: 8px;
+		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+		margin: 20px auto;
+		max-width: 1150px; /* Adjust based on your preference */
+		text-align: center; /* Center text and content */
+	}
+	
+	.about-me-container .image-container img {
+		width: 150px;
+		height: auto;
+		border-radius: 50%;
+		margin-bottom: 20px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.about-me-container h1, .about-me-container p {
+		text-align: left; /* Align text to the left */
+		margin: 0 auto; /* Centering text block within the container */
+		max-width: 740px; /* Slightly less than the container to maintain padding */
+	}
+	
+	/* Optional: Responsive adjustments */
+	@media (max-width: 800px) {
+		.about-me-container h1, .about-me-container p {
+			text-align: center; /* Center text for smaller screens */
+		}
+	}
+	
+	
